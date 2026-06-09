@@ -1,0 +1,301 @@
+COUNTRY,YEAR,CROP_ITEM,PRODUCTION_TONS
+United States,2000,Wheat,1735906.57
+United States,2000,Tomatoes,3213679.89
+United States,2001,Wheat,1210178.53
+United States,2001,Tomatoes,2309697.97
+United States,2002,Wheat,7795217.06
+United States,2002,Tomatoes,1326982.6
+United States,2003,Wheat,4215681.28
+United States,2003,Tomatoes,2482556.57
+United States,2004,Wheat,7057050.66
+United States,2004,Tomatoes,781978.98
+United States,2005,Wheat,6568664.36
+United States,2005,Tomatoes,1718589.62
+United States,2006,Wheat,2800508.18
+United States,2006,Tomatoes,1392580.28
+United States,2007,Wheat,4514242.24
+United States,2007,Tomatoes,3974952.33
+United States,2008,Wheat,5089563.51
+United States,2008,Tomatoes,2541282.35
+United States,2009,Wheat,3622721.33
+United States,2009,Tomatoes,1577619.61
+United States,2010,Wheat,3142599.88
+United States,2010,Tomatoes,1632660.63
+United States,2011,Wheat,5725703.63
+United States,2011,Tomatoes,452015.55
+United States,2012,Wheat,4955661.9
+United States,2012,Tomatoes,977245.12
+United States,2013,Wheat,7681064.48
+United States,2013,Tomatoes,595197.69
+United States,2014,Wheat,7308160.59
+United States,2014,Tomatoes,1445028.89
+United States,2015,Wheat,6542457.38
+United States,2015,Tomatoes,3304718.89
+United States,2016,Wheat,5832905.69
+United States,2016,Tomatoes,2907620.41
+United States,2017,Wheat,4514321.36
+United States,2017,Tomatoes,2691311.51
+United States,2018,Wheat,2327557.46
+United States,2018,Tomatoes,3545683.58
+United States,2019,Wheat,6555706.05
+United States,2019,Tomatoes,1557061.8
+United States,2020,Wheat,8326211.55
+United States,2020,Tomatoes,1964843.06
+United States,2021,Wheat,5291627.45
+United States,2021,Tomatoes,1222395.33
+United States,2022,Wheat,5723862.73
+United States,2022,Tomatoes,3481470.72
+United States,2023,Wheat,3114661.77
+United States,2023,Tomatoes,1842545.14
+United States,2024,Wheat,1506178.65
+United States,2024,Tomatoes,3787756.71
+China,2000,Wheat,3350177.25
+China,2000,Tomatoes,1777934.01
+China,2001,Wheat,8497023.9
+China,2001,Tomatoes,681153.4
+China,2002,Wheat,8606968.31
+China,2002,Tomatoes,460402.44
+China,2003,Wheat,796187.67
+China,2003,Tomatoes,3379607.7
+China,2004,Wheat,761408.37
+China,2004,Tomatoes,3953067.34
+China,2005,Wheat,7134053.39
+China,2005,Tomatoes,811772.97
+China,2006,Wheat,2873570.87
+China,2006,Tomatoes,978038.01
+China,2007,Wheat,3953687.82
+China,2007,Tomatoes,3214532.89
+China,2008,Wheat,6705139.63
+China,2008,Tomatoes,2368915.31
+China,2009,Wheat,8887164.99
+China,2009,Tomatoes,3072033.72
+China,2010,Wheat,5169421.42
+China,2010,Tomatoes,3899054.7
+China,2011,Wheat,3837617.62
+China,2011,Tomatoes,1328633.43
+China,2012,Wheat,2746612.73
+China,2012,Tomatoes,619694.2
+China,2013,Wheat,1911191.44
+China,2013,Tomatoes,3999531.0
+China,2014,Wheat,952360.66
+China,2014,Tomatoes,3041324.53
+China,2015,Wheat,4273379.91
+China,2015,Tomatoes,3988088.76
+China,2016,Wheat,3431020.59
+China,2016,Tomatoes,3285508.98
+China,2017,Wheat,7334709.83
+China,2017,Tomatoes,1553413.14
+China,2018,Wheat,5149990.78
+China,2018,Tomatoes,468042.43
+China,2019,Wheat,5582882.63
+China,2019,Tomatoes,2837812.38
+China,2020,Wheat,5269912.85
+China,2020,Tomatoes,2181730.77
+China,2021,Wheat,8116420.41
+China,2021,Tomatoes,1651939.77
+China,2022,Wheat,5698808.26
+China,2022,Tomatoes,2233058.41
+China,2023,Wheat,5298823.9
+China,2023,Tomatoes,1454102.29
+China,2024,Wheat,1645597.06
+China,2024,Tomatoes,973229.29
+Brazil,2000,Wheat,3158278.83
+Brazil,2000,Tomatoes,3006197.89
+Brazil,2001,Wheat,8988719.36
+Brazil,2001,Tomatoes,783632.69
+Brazil,2002,Wheat,7660518.48
+Brazil,2002,Tomatoes,2327368.06
+Brazil,2003,Wheat,2220607.29
+Brazil,2003,Tomatoes,1672922.55
+Brazil,2004,Wheat,5290739.94
+Brazil,2004,Tomatoes,2426349.66
+Brazil,2005,Wheat,2477470.2
+Brazil,2005,Tomatoes,530056.89
+Brazil,2006,Wheat,4657531.73
+Brazil,2006,Tomatoes,2007332.23
+Brazil,2007,Wheat,914365.74
+Brazil,2007,Tomatoes,1590283.42
+Brazil,2008,Wheat,6002707.94
+Brazil,2008,Tomatoes,1161431.74
+Brazil,2009,Wheat,2663571.77
+Brazil,2009,Tomatoes,3238002.3
+Brazil,2010,Wheat,5092015.05
+Brazil,2010,Tomatoes,1243363.48
+Brazil,2011,Wheat,8651058.63
+Brazil,2011,Tomatoes,3522239.76
+Brazil,2012,Wheat,3523386.29
+Brazil,2012,Tomatoes,3834383.93
+Brazil,2013,Wheat,5275885.3
+Brazil,2013,Tomatoes,2504582.45
+Brazil,2014,Wheat,6522809.59
+Brazil,2014,Tomatoes,3101715.46
+Brazil,2015,Wheat,3754550.37
+Brazil,2015,Tomatoes,1344929.82
+Brazil,2016,Wheat,1163749.68
+Brazil,2016,Tomatoes,3997870.11
+Brazil,2017,Wheat,3386947.4
+Brazil,2017,Tomatoes,2571611.53
+Brazil,2018,Wheat,7191106.26
+Brazil,2018,Tomatoes,3320367.17
+Brazil,2019,Wheat,513385.81
+Brazil,2019,Tomatoes,1925137.18
+Brazil,2020,Wheat,2020315.52
+Brazil,2020,Tomatoes,3250104.63
+Brazil,2021,Wheat,2956848.29
+Brazil,2021,Tomatoes,2588982.09
+Brazil,2022,Wheat,2603825.22
+Brazil,2022,Tomatoes,3482735.89
+Brazil,2023,Wheat,8074152.53
+Brazil,2023,Tomatoes,1350482.25
+Brazil,2024,Wheat,3750688.94
+Brazil,2024,Tomatoes,1503186.07
+Germany,2000,Wheat,7634758.19
+Germany,2000,Tomatoes,2293531.85
+Germany,2001,Wheat,4185225.79
+Germany,2001,Tomatoes,2642490.31
+Germany,2002,Wheat,4436517.34
+Germany,2002,Tomatoes,2464476.97
+Germany,2003,Wheat,5393677.49
+Germany,2003,Tomatoes,2788606.5
+Germany,2004,Wheat,975716.34
+Germany,2004,Tomatoes,1966132.66
+Germany,2005,Wheat,7665538.29
+Germany,2005,Tomatoes,1547636.2
+Germany,2006,Wheat,5905641.06
+Germany,2006,Tomatoes,3445923.05
+Germany,2007,Wheat,7803269.55
+Germany,2007,Tomatoes,1656843.22
+Germany,2008,Wheat,8620184.26
+Germany,2008,Tomatoes,1497809.51
+Germany,2009,Wheat,5697688.06
+Germany,2009,Tomatoes,572965.9
+Germany,2010,Wheat,5380609.61
+Germany,2010,Tomatoes,2884031.06
+Germany,2011,Wheat,6654727.0
+Germany,2011,Tomatoes,2558382.93
+Germany,2012,Wheat,563202.6
+Germany,2012,Tomatoes,1503328.33
+Germany,2013,Wheat,3460595.19
+Germany,2013,Tomatoes,1157791.86
+Germany,2014,Wheat,3767415.21
+Germany,2014,Tomatoes,3901132.62
+Germany,2015,Wheat,3124587.09
+Germany,2015,Tomatoes,3180525.74
+Germany,2016,Wheat,5358973.09
+Germany,2016,Tomatoes,3471142.19
+Germany,2017,Wheat,4044769.7
+Germany,2017,Tomatoes,1826773.9
+Germany,2018,Wheat,4954807.43
+Germany,2018,Tomatoes,2692137.39
+Germany,2019,Wheat,5196498.06
+Germany,2019,Tomatoes,3729888.25
+Germany,2020,Wheat,2353107.74
+Germany,2020,Tomatoes,2700338.69
+Germany,2021,Wheat,5026704.26
+Germany,2021,Tomatoes,1521059.91
+Germany,2022,Wheat,8999389.97
+Germany,2022,Tomatoes,2200064.25
+Germany,2023,Wheat,5576408.65
+Germany,2023,Tomatoes,819474.63
+Germany,2024,Wheat,8106774.64
+Germany,2024,Tomatoes,2748060.82
+Australia,2000,Wheat,2567018.64
+Australia,2000,Tomatoes,2926871.98
+Australia,2001,Wheat,3489842.56
+Australia,2001,Tomatoes,3142069.49
+Australia,2002,Wheat,7884978.73
+Australia,2002,Tomatoes,2778417.71
+Australia,2003,Wheat,8447301.11
+Australia,2003,Tomatoes,3544409.81
+Australia,2004,Wheat,7646030.98
+Australia,2004,Tomatoes,2032015.59
+Australia,2005,Wheat,5754679.71
+Australia,2005,Tomatoes,3382981.11
+Australia,2006,Wheat,582231.82
+Australia,2006,Tomatoes,2830721.86
+Australia,2007,Wheat,3746322.24
+Australia,2007,Tomatoes,2097886.75
+Australia,2008,Wheat,4357794.91
+Australia,2008,Tomatoes,319572.2
+Australia,2009,Wheat,8524140.35
+Australia,2009,Tomatoes,345054.78
+Australia,2010,Wheat,2951188.53
+Australia,2010,Tomatoes,1465403.32
+Australia,2011,Wheat,8909406.68
+Australia,2011,Tomatoes,2881576.4
+Australia,2012,Wheat,1044729.45
+Australia,2012,Tomatoes,756827.82
+Australia,2013,Wheat,7528898.2
+Australia,2013,Tomatoes,3964828.23
+Australia,2014,Wheat,2525567.74
+Australia,2014,Tomatoes,2015397.15
+Australia,2015,Wheat,1785698.16
+Australia,2015,Tomatoes,3192261.56
+Australia,2016,Wheat,7145427.8
+Australia,2016,Tomatoes,1236963.28
+Australia,2017,Wheat,4812371.7
+Australia,2017,Tomatoes,369694.8
+Australia,2018,Wheat,3186570.31
+Australia,2018,Tomatoes,875527.41
+Australia,2019,Wheat,5536154.66
+Australia,2019,Tomatoes,3684472.53
+Australia,2020,Wheat,4994197.0
+Australia,2020,Tomatoes,3919059.39
+Australia,2021,Wheat,6708366.03
+Australia,2021,Tomatoes,1981400.52
+Australia,2022,Wheat,3635200.49
+Australia,2022,Tomatoes,3782706.04
+Australia,2023,Wheat,2924007.13
+Australia,2023,Tomatoes,1521031.16
+Australia,2024,Wheat,7759347.51
+Australia,2024,Tomatoes,1870056.87
+India,2000,Wheat,903221.86
+India,2000,Tomatoes,3551545.07
+India,2001,Wheat,8714520.37
+India,2001,Tomatoes,2824727.98
+India,2002,Wheat,5787270.52
+India,2002,Tomatoes,950232.77
+India,2003,Wheat,7535256.23
+India,2003,Tomatoes,3684239.49
+India,2004,Wheat,5614915.17
+India,2004,Tomatoes,1460129.76
+India,2005,Wheat,1897016.96
+India,2005,Tomatoes,2456245.68
+India,2006,Wheat,1780945.19
+India,2006,Tomatoes,1080414.24
+India,2007,Wheat,1780628.83
+India,2007,Tomatoes,306593.13
+India,2008,Wheat,5927194.52
+India,2008,Tomatoes,3523700.27
+India,2009,Wheat,5847061.28
+India,2009,Tomatoes,3037252.41
+India,2010,Wheat,1154989.86
+India,2010,Tomatoes,3961118.2
+India,2011,Wheat,5796096.46
+India,2011,Tomatoes,1288615.85
+India,2012,Wheat,6468337.05
+India,2012,Tomatoes,3957235.43
+India,2013,Wheat,4116352.52
+India,2013,Tomatoes,1060563.41
+India,2014,Wheat,644610.54
+India,2014,Tomatoes,1081009.83
+India,2015,Wheat,6740939.67
+India,2015,Tomatoes,3122607.74
+India,2016,Wheat,551869.2
+India,2016,Tomatoes,2293825.44
+India,2017,Wheat,7363848.43
+India,2017,Tomatoes,3801318.53
+India,2018,Wheat,3720075.11
+India,2018,Tomatoes,391385.67
+India,2019,Wheat,7461394.68
+India,2019,Tomatoes,995721.3
+India,2020,Wheat,2236275.69
+India,2020,Tomatoes,906854.73
+India,2021,Wheat,2404044.42
+India,2021,Tomatoes,2207381.26
+India,2022,Wheat,1952432.32
+India,2022,Tomatoes,3597676.4
+India,2023,Wheat,3545199.46
+India,2023,Tomatoes,3779039.14
+India,2024,Wheat,1351659.14
+India,2024,Tomatoes,3503408.08

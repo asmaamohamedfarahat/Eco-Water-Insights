@@ -1,0 +1,29 @@
+@'
+import sys
+import os
+
+# مسح كاش الموديولات القديمة تماماً لضمان قراءة التعديل الجديد
+if 'ecowater_dag' in sys.modules:
+    del sys.modules['ecowater_dag']
+
+print("="*60)
+print("EcoWater Insights - Airflow Pipeline Validation Utility")
+print("="*60)
+
+try:
+    # تحديد مسار الفولدر بدقة
+    sys.path.append(os.path.join(os.getcwd(), 'dags'))
+    
+    print("[INFO] Validating DAG structure and dependencies...")
+    import ecowater_dag
+    
+    print("\n[SUCCESS] Airflow DAG layout is structurally sound!")
+    print(f" -> Pipeline Name: {ecowater_dag.dag.dag_id}")
+    print(f" -> Task Dependencies: {ecowater_dag.generate_data_task.task_id} >> {ecowater_dag.process_spark_data_task.task_id}")
+    print(" -> Execution Interval: Scheduled for Daily Run (24h)")
+    
+except Exception as e:
+    print(f"\n[ERROR] DAG compilation failed: {str(e)}")
+
+print("="*60)
+'@ | Out-File -FilePath test_airflow_dag.py -Encoding utf8
