@@ -1,0 +1,6 @@
+pyspark==3.3.0
+pandas==1.5.3
+numpy==1.23.5
+apache-airflow==2.5.1
+pyodbc==4.0.39
+cryptography==39.0.1

@@ -1,6 +1,6 @@
 ﻿from datetime import datetime, timedelta
 from airflow import DAG
-from airflow.providers.standard.operators.bash import BashOperator
+from airflow.operators.bash import BashOperator
 
 default_args = {
     'owner': 'Data_Engineer_Asma',
@@ -21,14 +21,16 @@ with DAG(
     tags=['ecowater', 'spark', 'nexus'],
 ) as dag:
 
+    # تشغيل سكريبت توليد البيانات جوه الحاوية
     generate_data_task = BashOperator(
         task_id='simulate_and_generate_data',
-        bash_command='python C:/Users/Admin/Desktop/Global_EcoWater_Project/1_data_generator.py',
+        bash_command='python /app/1_data_generator.py',
     )
 
+    # تشغيل سكريبت معالجة البيانات بالسبارك جوه الحاوية
     process_spark_data_task = BashOperator(
         task_id='spark_big_data_processing',
-        bash_command='python C:/Users/Admin/Desktop/Global_EcoWater_Project/2_global_spark_processing.py',
+        bash_command='python /app/2_global_spark_processing.py',
     )
 
     generate_data_task >> process_spark_data_task

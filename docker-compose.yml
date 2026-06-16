@@ -1,0 +1,43 @@
+services:
+  # 1. محرك السبارك (Apache Spark)
+  ecowater_spark_processor:
+    image: apache/spark:3.4.0
+    container_name: ecowater_spark_container
+    user: root
+    volumes:
+      - .:/app
+      - ./data:/app/data
+      - ./global_data:/app/global_data
+    environment:
+      - DB_SERVER=sql_server_host
+      - DB_NAME=Global_And_Egypt_Warehouse_DB
+    ports:
+      - "4040:4040"
+    working_dir: /app
+    command: >
+      /bin/bash -c "pip install --no-cache-dir -r requirements.txt && python 2_global_spark_processing.py"
+    networks:
+      - ecowater_pipeline_network
+    restart: on-failure
+
+  # 2. محرك الأوركسترا (Apache Airflow) - تم تعديل مسار الـ Volume هنا
+  airflow_orchestrator:
+    image: apache/airflow:2.5.1-python3.9
+    container_name: ecowater_airflow_container
+    user: root
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./data:/app/data
+    ports:
+      - "8888:8080"
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    command: >
+      bash -c "airflow db init && airflow standalone"
+    networks:
+      - ecowater_pipeline_network
+    restart: always
+
+networks:
+  ecowater_pipeline_network:
+    driver: bridge
